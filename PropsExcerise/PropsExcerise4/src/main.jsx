@@ -1,6 +1,6 @@
 import Profile from "./components/Profile";
 import React from "react";
-import ReactDOM from 'react-dom';
+import * as ReactDOM from 'react-dom/client'
 const sayHello = (e) => {
   e.preventDefault()
   console.log(e.target.value)
